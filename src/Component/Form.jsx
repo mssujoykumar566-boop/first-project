@@ -12,7 +12,7 @@ const Form = () => {
     e.preventDefault();
     setError('');
 
-    // 🔹 Email regex (professional standard)
+    // 🔹 Email regex 
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
     // 🔹 Password regex
